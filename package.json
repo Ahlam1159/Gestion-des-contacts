@@ -1,0 +1,10 @@
+{
+    "name": "todo_project",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "concurrently \"npm run dev --prefix Back_Gestion\" \"npm run dev --prefix Front_Gestion\""
+    },
+    "devDependencies": {
+        "concurrently": "^9.0.1"
+    }
+}
